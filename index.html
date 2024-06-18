@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecto3</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="media.css">
+    <script async src="js/app.js" type="module">
+
+    </script>
+</head>
+    <header>
+        <img class="cabecera" src="i/logo/LaSerietulia-h.svg" alt="logo">
+    </header>  
+    <main>
+        <picture>
+            <source srcset="img/victoria-kubiaki-yeFJNtA3604-unsplash1.jpg,
+                            img/victoria-kubiaki-yeFJNtA3604-unsplash1@2x.jpg 2x,
+                            img/victoria-kubiaki-yeFJNtA3604-unsplash1@3x.jpg 3x">
+        <img class="principal" src="img/victoria-kubiaki-yeFJNtA3604-unsplash1@3x.jpg" alt="imagine tv">
+        </picture>
+        <section class="description">
+                <h1>Maníacs de les sèries?<span class="azules"> Teniu una cita ineludible.</span></h1>
+
+                <p>Els pròxims 22 i 23 de novembre tens una cita que no pots deixar perdre. Passa't a compartir la teva passió pel setè art "de sofà" amb uns convidats excepcionals.</p>
+            <form id="formulario" name="formulario">
+            <ul class="invertir">
+            <li>
+                <label for="email"></label>
+                <input class="gris" id="email" type="email" name="email" pattern="/^[a-zA-Z=-9._-]+@[a-zA-Z=-9._-]/" tabindex="1">   
+            </li>
+            <li class="box">
+            <button type="submit">Alta newsletter</button>
+          </li>
+                <li>
+            <input class="pulsar" id="privacidad" type="checkbox" required tabindex="2">
+            <label for="privacidad">He llegit i accepto la política de privacitat</label>
+        </li>
+        </ul>
+        </form>
+        </section>
+    </main>
+    
+    <div class="simble">
+        <h2>Activitats dins del festival</h2>
+    </div>
+    <section class="opcion">
+        <article>
+        <img class="iconos" src="icons/coffee-solid.svg" alt="coffe">
+        <h4>Taules rodones</h4>
+        </article>
+        <article>
+        <img class="iconos" src="icons/video-solid.svg" alt="video">
+        <h4>Projecció de sèries</h4>
+        </article>
+        <article>
+        <img class="iconos" src="icons/comments-solid.svg" alt="comment">
+        <h4>Debats amb els convidats</h4>
+        </article>
+        <article>
+        <img class="iconos" src="icons/address-card-solid.svg" alt="address-card">
+        <h4>Serietúlia Pro</h4>
+        </article>
+    </section> 
+    <section class="convidats">
+        <h2>Convidats de luxe</h2>
+        <h5>Actors, actrius i guionistes convidats a les xerrades i debats en el visionament de capítols emblemàtics que es durà a terme a la Filmoteca.</h5>
+        <div id="cards">
+           
+        </div>
+    </section>
+    <section class="serie">
+    <h2>Les millors sèries</h2>
+    <h3>Troba les sèries que projectarem al festival a la teva plataforma.</h3>
+    <nav>
+        <button type="submit">Totes</button>
+        <button type="submit">HBO max</button>
+        <button type="submit">Netflix</button>
+        <button type="submit">Filmin</button>
+        <button type="submit">Prime</button>
+        <button type="submit">Dysney+</button>
+    </nav> 
+    </section>
+
+    <section class="collection">
+        <article>
+            <img class="poster" src="img/series/the-office.jpg" alt="the office">
+            </article>
+            <article>
+            <img class="poster" src="img/series/luther.jpg" alt="luther">
+            </article>
+            <article>
+            <img class="poster" src="img/series/killing-eve.jpg" alt="killing eve">
+            </article>
+            <article>
+            <img class="poster" src="img/series/halt-and-catch-fire.jpg" alt="halt and catch fire">
+            </article> 
+            <article>
+            <img class="poster" src="img/series/girls.jpg" alt="girls">
+            </article>
+            <article>
+            <img class="poster" src="img/series/fleabag.jpg" alt="fleabag">
+            </article>
+            <article>
+            <img class="poster" src="img/series/firefly.jpg" alt="firefly">
+            </article> 
+            <article>
+            <img class="poster" src="img/series/castle.jpg" alt="castle">
+            </article>  
+    </section>
+
+    <h3 class="pregunta">Vols reble informacion?</h3>
+    <section class="ultima">
+    <form id="formulario" name="formulario">
+        <label for="email2"></label>
+        <input class="gris540" id="email2" type="email" name="email2" tabindex="1">
+        <button type="submit">Alta newsletter</button>
+        <ul>
+            <li>
+        <input class="pulsar" id="privacidad2" type="checkbox" required tabindex="2">
+        <label for="privacidad2">He llegit i accepto la política de privacitat</label>
+    </li>
+    </ul>
+    </form>
+</section>
+
+<h2> Espais y dates</h2>
+<section class="direction"> 
+<div class="mapa">
+    <img src="img/mapa/Rectangle.png" alt="logo">
+</div>
+
+<div>
+<h2 class="fechas">22 i 23 de novembre</h2>
+<h3>Filmoteca de Catalunya</h3>
+<address>
+    Plaça Salvador Seguí, 1 – 9
+    08001 Barcelona 
+</address>
+<h3>Restaurant «La Monroe»</h3>
+<address>
+    Plaça Salvador Seguí
+    08001 Barcelona
+</address>
+</div>
+</section>
+<h2 class="patrocinio">Patrocinadors i col·laboradors</h2>
+<hr></hr>
+<div class="uno">
+<img src="img/patrocinadores/Logo-Damm-web 1.png" alt="damm">
+<img src="img/patrocinadores/vichy.png" alt="vichy">
+</div>
+<div class="dos">
+<img src="img/patrocinadores/HBOn_alpha_footer-e1530626307174 1.png" alt="HBOn">
+<img src="img/patrocinadores/Netflix_Logo_footer-500x210 1.png" alt="netflix">
+<img src="img/patrocinadores/RTVE_footer-500x258 1.png" alt="RTVE">
+<img src="img/patrocinadores/Logo_iCatFm-500x186 1.png" alt="iCatFm">
+<img src="img/patrocinadores/Time-Out_2-500x182.png" alt="Time-Out">
+</div>
+<div class="tres">
+    <img src="img/patrocinadores/bn_ajuntament.png" alt="bn_ajuntament">
+    <img src="img/patrocinadores/Logotip_beteve_roig-1-500x136 1.png" alt="beteve">
+    <img src="img/patrocinadores/CFF_Logo-Negre-RGB-500x115 1.png" alt="cff">
+    <img src="img/patrocinadores/escac_claim_white 1.png" alt="escac">
+    <img src="img/patrocinadores/cccb.png" alt="">
+</div>
+<script src="validacion.js"></script>
+</body>
+</html>

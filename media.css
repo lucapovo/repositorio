@@ -1,0 +1,122 @@
+@media screen and (min-width: 360px) and (max-width: 600px) {
+
+.cabecera{
+width: 111.667vw;
+height: 128px;   
+margin-top: 0px;
+margin-bottom: 0px;
+}  
+
+.principal{
+width: 100vw;
+height: 240px;
+}
+    
+.description{
+margin-left: 6.667vw;
+margin-right: 6.667vw;
+
+}
+
+.description ul{
+width: 86.667vw;  
+}
+
+.invertir{
+display: flex;
+}
+.box:nth-child(2){
+    order:3;
+}
+        
+main{
+display:block;
+}
+
+form{
+margin-top: 11.111vw;
+width: 86.667vw;
+}
+
+.pulsar{
+margin-left: 15vw;
+width: 6.11vw;
+height: 22px;
+    }
+
+.gris{
+width: 86.667vw;
+height: 39.5px;
+    }
+
+.box button{
+width: 52.77vw;
+}
+
+.description h1{
+margin-top: 3.333vw;
+width: 86.667vw;
+font-size: 36px;
+line-height: 120%;
+letter-spacing: 1px;
+}
+        
+.description p{
+margin-top: 3.333vw;    
+width: 86.667vw;    
+font-size: 16px;
+line-height: 130%;
+}
+
+.gris{
+height: 39.45px;
+    }
+
+.collection{
+visibility:collapse
+}
+
+#cards{
+flex-wrap:nowrap;
+scroll-snap-type: x mandatory;
+    }
+
+.serie{
+    visibility: collapse;
+}
+
+.simble h2{
+width: 80.556vw;
+}
+
+.opcion h4{
+margin-top: 11.111vw;
+margin-bottom: 5.556vw;
+}
+
+.opcion{
+flex-wrap: wrap;
+gap: 25vw
+}
+   
+.convidats h2{
+    color: #091133;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+    }
+    .serie h2{
+        color: #091133;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+        }
+
+
+}
